@@ -1,16 +1,52 @@
-# React + Vite
+# Instagram-Inspired UI Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend user interface design inspired by Instagram.  
+It focuses on layout, navigation, and visual structure, and was developed as a learning-based project to practice modern frontend development.
 
-Currently, two official plugins are available:
+## 🎯 Project Objective
+To design and implement a simple social media-style user interface using frontend web technologies while improving understanding of UI layout, navigation, and component structuring.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+- JSON Server
 
-## React Compiler
+## 📄 Pages Included
+- Home Feed Page
+- Profile Page
+- Story Page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Instagram-inspired layout and design
+- Navigation between multiple pages
+- Story section UI
+- Uses JSON Server for mock data
+- Responsive UI structure
+- Clean and simple frontend implementation
 
-## Expanding the ESLint configuration
+## 🚀 How to Run the Project Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js and npm installed
+- Visual Studio Code or any code editor
+
+### Commands to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/ElakkyaKrishnan/Instagram-Inspired-UI-interface.git
+
+# Move into the project directory
+cd Instagram-Inspired-UI-interface
+
+# Install all dependencies
+npm install
+
+# Start the frontend (Terminal 1)
+npm run dev
+
+# Start JSON Server (Terminal 2)
+npx json-server --watch Db/postdb.json --port 3000
