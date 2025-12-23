@@ -12,7 +12,7 @@ To design and implement a simple social media-style user interface using fronten
 - JavaScript
 - React
 - Vite
-- JSON Server
+
 
 ## 📄 Pages Included
 - Home Feed Page
