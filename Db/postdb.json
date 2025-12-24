@@ -1,0 +1,173 @@
+{
+  "post": [
+    {
+      "id": "1",
+      "user": {
+        "username": "alex_dev",
+        "profilePic": "src/assets/profile_pic_1.jpg"
+      },
+      "imageUrl": "src/assets/post_1.jpeg",
+      "caption": "Sunset vibes 🌅",
+      "likes": 120,
+      "likedBy": [
+        "maria_98",
+        "johnny",
+        "tech_guy"
+      ],
+      "comments": [
+        {
+          "id": 101,
+          "username": "maria_98",
+          "text": "Amazing view!",
+          "timestamp": "2025-10-14T10:30:00Z"
+        },
+        {
+          "id": 102,
+          "username": "johnny",
+          "text": "Where is this?",
+          "timestamp": "2025-10-14T11:00:00Z"
+        }
+      ],
+      "timestamp": "2025-10-14T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "username": "luna_art",
+        "profilePic": "src/assets/profile_pic_2.jpg"
+      },
+      "imageUrl": "src/assets/post_2.webp",
+      "caption": "New artwork 🖌️✨",
+      "likes": 340,
+      "likedBy": [
+        "art_fan",
+        "gallery_guy"
+      ],
+      "comments": [],
+      "timestamp": "2025-10-13T18:25:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "username": "ale",
+        "profilePic": "src/assets/profile_pic_3.jpg"
+      },
+      "imageUrl": "src/assets/post_3.avif",
+      "caption": "Twilight 🌅",
+      "likes": 120,
+      "likedBy": [
+        "ellaa_98",
+        "john",
+        "tech_pro"
+      ],
+      "comments": [
+        {
+          "id": 103,
+          "username": "mari",
+          "text": "Amazing view!",
+          "timestamp": "2025-10-14T10:30:00Z"
+        },
+        {
+          "id": 104,
+          "username": "johnny",
+          "text": "Where is this?",
+          "timestamp": "2025-10-14T11:00:00Z"
+        }
+      ],
+      "timestamp": "2025-10-14T10:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 4,
+    "username": "lan zhan",
+    "profilePic": "/src/assets/profile_pic_1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "maria_98",
+      "profilePic": "src/assets/profile_pic_1.jpeg"
+    },
+    {
+      "id": "2",
+      "username": "art_fan",
+      "profilePic": "src/assets/profile_pic_2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "nature_lover",
+      "profilePic": "src/assets/profile_pic_3.jpg"
+    },
+    {
+      "id": "4",
+      "username": "demon_knight",
+      "profilePic": "src/assets/profile_pic_1.jpg"
+    },
+    {
+      "id": "5",
+      "username": "crescent",
+      "profilePic": "src/assets/post_1.jpeg"
+    },
+    {
+      "id": "6",
+      "username": "maleficent",
+      "profilePic": "src/assets/post_2.webp"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "username": "alex_dev",
+        "profilePic": "src/assets/profile_pic_1.jpg"
+      },
+      "video": "/src/assets/Dingdong.mp4"
+    },
+    {
+      "id": "2",
+      "user": {
+        "username": "alex_dev",
+        "profilePic": "src/assets/profile_pic_1.jpeg"
+      },
+      "video": "/src/assets/Wakawaka.mp4"
+    },
+    {
+      "id": "3",
+      "user": {
+        "username": "alex_dev",
+        "profilePic": "src/assets/profile_pic_2.jpg"
+      },
+      "video": "/src/assets/Halloween.mp4"
+    },
+    {
+      "id": "4",
+      "user": {
+        "username": "alex_dev",
+        "profilePic": "src/assets/profile_pic_3.jpg"
+      },
+      "video": "/src/assets/Naarniya.mp4"
+    }
+  ],
+  "followers": [
+    {
+      "id": "1",
+      "username": "maria_98",
+      "profilePic": "src/assets/profile_pic_1.jpeg"
+    },
+    {
+      "id": "2",
+      "username": "art_fan",
+      "profilePic": "src/assets/profile_pic_2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "nature_lover",
+      "profilePic": "src/assets/profile_pic_3.jpg"
+    },
+    {
+      "id": "5",
+      "username": "crescent",
+      "profilePic": "src/assets/post_1.jpeg"
+    }
+  ]
+}
